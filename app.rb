@@ -7,6 +7,10 @@ configure :development do
   BetterErrors.application_root = File.expand_path('..', __FILE__)
 end
 
-get '/' do
-  'Hello world!'
+get '/' do  # <- Router part
+
+  # [...]   #
+  # [...]   # <- Controller part
+  # [...]   #
+
 end
