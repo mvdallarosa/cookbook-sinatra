@@ -1,0 +1,6 @@
+<h2>My Cookbook</h2>
+<ol>
+  <% @cookbook.all.each do |recipe| %>
+      <li><a href="/name"><%= recipe.name %></a></li>
+  <% end %>
+</ol>
